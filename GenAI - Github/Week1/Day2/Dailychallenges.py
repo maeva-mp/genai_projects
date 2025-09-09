@@ -15,3 +15,9 @@ else:
 #Once the string is validated, print the first and last characters.
 print("First character:", user_input[0])
 print("Last character:", user_input[-1])
+#Loops and print the string character one by one
+print("\nBuilding string:")
+char = 1
+while char <= len(user_string):
+    print(user_string[:char])
+    char += 1
